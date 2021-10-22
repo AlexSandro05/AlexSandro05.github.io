@@ -44,7 +44,7 @@ div p{
     max-height: 5%;
     overflow: hidden;
     text-align: center;
-    width:1472px;
+    width:98%;
 }
 div[class|='str'] {
     margin-left: 1%;
@@ -53,7 +53,7 @@ div[class|='str'] {
 .left{
     background-color: #b5ffff;
     position: absolute;
-    width: 30.65972222222222%;
+    width: 30.66%;
     height: 90px;
     margin-left: 16px;
     margin-top: 14px;
@@ -64,7 +64,7 @@ div[class|='str'] {
     background-color: #b5ffff;
     height: 440px;
     margin-left: 18px;
-    width: 32.65972222222222%;
+    width: 32.55%;
     margin-top: 14px;
 }
 .rb{
@@ -73,7 +73,7 @@ div[class|='str'] {
     background-color: #b5ffff;
     height: 440px;
     margin-left: 0px;
-    width: 435px;
+    width: 28.6624494%;
     margin-top: 14px;
 }
 .l2{
@@ -95,6 +95,6 @@ div[class|='str'] {
     overflow: hidden;
     text-align: center;
     margin-top: 500px;
-    width: 1472px;
+    width:98%;
     margin-left: 16px;
 }
