@@ -1,9 +1,3 @@
-@use postcss-nested;
-
-:root {
-    --size: 5rem;
-}
-
 body{
 background-color: #1b1c38;
 }
