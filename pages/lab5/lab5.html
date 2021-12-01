@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="lab5.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<script src="lab5.js"></script>
+<title>Лабораторна 5</title>
+</head>
+<body>
+  <div>
+  <div class = 'back'>
+    <p class = 'bern'>Розрахування ймовірності при випробуванні зa схемою Бернуллі</p>
+    <p class = "pn" >n - кількість випробувань</p>
+    <input name="n" type="number" class = 'n' id = 'n' />
+    <p class = "pk">k - кількість вдалих випробувань</p>
+    <input name="k" type="number" class = 'k'  id = 'k'>
+      <p class = "pp" >p - ймовірність удачі при окремо взятому випробуванні</p>
+    <input name="k" type="number" class = 'k' id = 'pp'/>
+    <br></br>
+    <input name="Res" type="button" value="Вирахувати ймовірність" onclick="prog();" />
+  </div>
+</div>
+<div id="vidpovid" class = 'result'><h2>Відповідь:</h2>
+    <p id="result"></p> </div>
+
+<script>
+function prog() {
+  var n = document.getElementById('n').value;
+  var k = document.getElementById('k').value;
+  var p = document.getElementById('pp').value;
+  var result;
+  var n = Number(n)
+  var k = Number(k)
+  var p = Number(p) 
+  var a = 1;
+  var fn = 1;
+  while(a<n+1){
+    fn *=a 
+    a+=1
+  }
+  var b = 1;
+  var fk = 1;
+  while(b<k+1){
+  fk *=b;
+  b+=1;
+  }
+  var c = 1;
+  var fnk = 1;
+  while(c<(n-k)+1){
+    fnk *=c ;
+    c+=1;
+  }
+  if (p>1) {
+    result = "Помилка, ймовірність не може бути більше 1";
+  }else if(fn<fk) {
+    result =  "Помилка, кількість випробувань менше, ніж кількість вдалих випробувань";
+  }else if(n<0){
+    result =  "Помилка, кількість випробувань не може бути менше 0";
+  }else if(k<0){
+    result =  "Помилка, кількість випробувань не може бути менше 0";
+  }else if(p<0){
+    result =  "Помилка, ймовірність не може бути менше 0";
+  }else{ 
+    result = (fn/(fk*fnk))*(Math.pow(p,k))*(Math.pow(1-p,n-k));
+  }
+  document.getElementById('result').textContent = result;
+}
+</script>
+</body>
+</html>
