@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <title>Лабораторна робота 4</title>
+<link rel="stylesheet" href="C:\Users\User\Desktop\lab3.css">
+</head>
+<body>
+<div class = "osnova">
+<h1>Розв'язати диференціальне рівняння:</h1>
+<p>$$\color{blue}{y'=\frac{x+y-2}{3x-y-2}} $$</p>
+<p>Задано ДР першого порядку , яке звідне до однорідного диференціального рівняння. Щоб отримати останнє знайдемо стаціонарну точку, для цього розв'яжемо систему рівнянь, яку формуємо прирівнюючи чисельник та знаменник до нуля</p>
+<p> $$\begin{cases} x+y-2=0 \\ 3x-y-2=0 \end{cases}\ {\color{Red} \Rightarrow } \begin{cases}x=1 \\ y=1 \end{cases}\ $$ </p>
+<p>Далі виконуємо зміщення початку координат в знайдену точку <span class="blue">O(1;1)</span></p>
+<p>$$\begin{cases} x=X+1 \\ y=Y+1 \end{cases}\ {\color{Red} \Rightarrow } \begin{cases} X=x-1 \\ Y=y-1 \end{cases}\ $$</p>
+<p>Початкове ДР при такій заміні зводимо до вигляду</p>
+<p>$$\frac{dY}{dX}=\frac{X+Y}{3X-Y}$$</p>
+<p>Після цього у правій частині змінну X виносимо з чисельника та знаменника за дужки та скорочуємо на неї. В такий спосіб отримаємо однорідне диференціальне рівняння нульового порядку</p>
+<p>$$Y'=\frac{1+\frac{Y}{X}}{3-\frac{Y}{X}} $$</p>
+<p>Далі використовуємо схему обчислень з попереднього завдання. Робимо заміну: $$z=Y/X; Y=z*X $$ похідна старої функції при цьому виражається формулою</p>
+<p>$$Y'=\frac{dz}{dX}X+z $$</p>
+<p>Підставимо у рівняння та спростимо його</p>
+<p>$$\frac{dz}{dX}X+z=\frac{1+z}{3-z} {\color{Red} \Rightarrow } \frac{dz}{dX}X=\frac{1-2z+z^2}{3-z} {\color{Red} \Rightarrow } \frac{dz}{dX}X=\frac{(z-1)^2}{3-z} $$</p>
+<p>Далі перетворюємо до <b>диференціального рівняння з відокремленими змінними</b></p>
+<p>$$\int\frac{\color{Green}{z-3}}{(z-1)^2}dz=-\int \frac{dX}{x} {\color{Red} \Rightarrow } \frac{2}{z-1}+ln|z-1|=-ln|X|+C $$</p>
+<p>та інтегруванням обчислюємо його</p>
+<p>$$\int\frac{\color{Green} {-2-z-1}}{(z-1)^2}dz=-\int \frac{dX}{x} {\color{Red} \Rightarrow } \frac{2}{z-1}+ln|z-1|=-ln|X|+C $$</p>
+<p>Вертаючись двічі до попередніх замін, отримаємо</p>
+<p>$$ \frac{2}{\frac{Y}{X}-1}+ln \bigg|\frac{Y}{X}-1\bigg|=-ln|X|+C {\color{Red} \Rightarrow } \frac{2X}{Y-X}+ln\bigg|\bigg(\frac{Y}{X}-1\bigg)X\bigg|=C {\color{Red} \Rightarrow }  $$</p>
+<p>$$ \color{Red} {\frac{2(2-1)}{y-x}+ln|y-x|=C} $$</p>
+<p>Остання формула і є <b>шуканий розв'язок диференціального рівняння</b>. </p>
+</div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+  </script>
+</body>
+</html>
