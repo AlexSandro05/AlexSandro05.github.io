@@ -1,0 +1,22 @@
+h1{
+	color: black;
+	font-family: cursive;
+	text-align: center;
+}
+.osnova{
+	background-color:lightcyan;
+	width: 700px;
+	height: 1400px;
+	margin-left: 400px;
+	border: 3px groove; black;
+	border-radius: 5px;
+}
+p{
+font-family: cursive;
+text-align: center;
+}
+.blue{
+	color: darkblue;
+}
+body{
+background: url(https://raw.githubusercontent.com/AlexSandro05/AlexSandro05.github.io/main/pics/math.jpg)  ; }
