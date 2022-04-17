@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="C:\Users\User\Desktop\lab_8-9.css">
+  <title>Лабораторна робота 8-9</title>
+</head>
+<body>
+<div class="text">
+<h1>Гіпотеза Коллатца</h1>
+<h3>Одна з нерозв'язаних проблем математики, названа на честь німецького математика Лотара Коллатца, який запропонував її у 1937 році. Для пояснення суті гіпотези розглянемо наступну послідовність чисел, яка називається Сіракузькою послідовністю. Беремо будь-яке натуральне число n. Якщо воно парне, то ділимо його на 2, а якщо непарне, то множимо на 3 і додаємо 1 (отримуємо 3n + 1). Над отриманим числом виконуємо ті ж самі дії, і так далі. <b>Гіпотеза Коллатца</b> полягає в тому, що яке б початкове число ми не взяли, рано чи пізно ми отримаємо одиницю і потрапимо в петлю 4-2-1.</h3>
+<a href="#res">Пропоную переглянути приклад</a>
+</div>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height = "400px" width =
+"400px">
+
+<g id = "circle">
+ <circle id='krug' cx="700px" cy="1200px" r="200px" fill="purple" fill-opacity="0.75" stroke="blue"  stroke-width="5" stroke-opacity="0"/>
+
+<text id="number" x="43%" y="82%" fill="#90ee90"></text>
+<text class="mnoj" id='mnoj' x="83%" y="82%" fill="#90ee90" fill-opacity = "0">*3+1</text>
+<text class="dil" id="dil" x="83%" y="82%" fill="#90ee90" fill-opacity = "0">/2</text>
+<animate id="anim1" href="#mnoj" attributeName="x"   from="930" to="830" dur="2s" begin="button.click" repeatCount="indefinite"/>
+<animate id="anim2" href="#dil" attributeName="x"   from="930" to="830" dur="2s" begin="button.click" repeatCount="indefinite" />4
+
+</g>
+</svg> 
+<input name="n" type="number" class = 'n' id = 'n' placeholder="Введіть натуральне число"><a name="res"></a></input>
+<input  class = 'button 'name="Res" type="button" value="ОК" onclick="prog();" />
+</div>
+<script type="text/javascript">
+  function prog(){
+  var color = document.querySelector("circle");
+  var n = document.getElementById('n').value;
+  var number = document.getElementById('number');
+  var anim1 = document.getElementById('anim1');
+  var anim2 = document.getElementById('anim2');
+  var mnoj = document.getElementById('mnoj');
+  var dil = document.getElementById('dil');
+  var timer = setInterval(function() {
+    if (( n%2) == 0) {
+  number.innerHTML = n;
+  n = n/2;
+  color.setAttribute("stroke", "tomato");
+  color.setAttribute("stroke-opacity","1");
+  anim2.setAttribute('begin', '0s');
+   anim1.setAttribute('begin', '0s');
+   mnoj.setAttribute('fill-opacity', '0');
+   dil.setAttribute('fill-opacity', '1')
+    } else {
+      number.innerHTML = n;
+      n = n*3+1;
+      color.setAttribute("stroke", "cornflowerblue");
+      color.setAttribute("stroke-opacity","1");
+      anim1.setAttribute('begin', '0s');
+      anim2.setAttribute('begin', '0s');
+   mnoj.setAttribute('fill-opacity', '1');
+   dil.setAttribute('fill-opacity', '0')
+    }
+  }, 2000)
+}
+</script>
+</body>
+</html>
