@@ -25,7 +25,8 @@ body, html {
 		font-weight: 700;
 		text-decoration: none;
 		margin-right: 15px;
-		transition : .4s linear;}
+		transition : .4s linear
+		cursor: pointer;}
 
 	.box a:hover {
 		background-color: silver;
