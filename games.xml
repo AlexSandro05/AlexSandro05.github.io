@@ -2,47 +2,47 @@
 <games>
 	<game group="Симулятори">
 		<name>Fifa 22</name>
-		<version>2021</version>
+		<year>2021</year>
 		<category>Electronic Arts Sports</category>
 	</game>
 	<game group="Симулятори">
 		<name>Farming Simulator</name>
-		<version>2021</version>
+		<year>2021</year>
 		<category>Giant Software</category>
 	</game>
 	<game group="Симулятори">
 		<name>Euro Truck Simulator 2</name>
-		<version>2012</version>
+		<year>2012</year>
 		<category>SCS Software</category>
 	</game>
 	<game group="КБ">
 		<name>PlayerUnknown's Battlegrounds</name>
-		<version>2017</version>
+		<year>2017</year>
 		<category>Krafton</category>
 	</game>
 	<game group="КБ">
 		<name>Fortnite</name>
-		<version>2017</version>
+		<year>2017</year>
 		<category>Epic Games </category>
 	</game>
 	<game group="КБ">
 		<name>Call of Duty: Warzone</name>
-		<version>2020</version>
+		<year>2020</year>
 		<category>Activision</category>
 	</game>
 	<game group="Шутери">
 		<name>Counter-Strike: Global Offensive</name>
-		<version>2012</version>
+		<year>2012</year>
 		<category>Valve Corporation</category>
 	</game>
 	<game group="Шутери">
 		<name>Valorant</name>
-		<version>2020</version>
+		<year>2020</year>
 		<category>Riot Games</category>
 	</game>	
 	<game group="Шутери">
 		<name>Tom Clancy’s Rainbow Six: Siege</name>
-		<version>2015</version>
+		<year>2015</year>
 		<category>Ubisoft Monreal</category>
 	</game>
 </games>
