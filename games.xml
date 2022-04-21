@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games>
 	<game group="Симулятори">
-		<title>Adobe Photoshop</title>
-		<version>CS6</version>
-		<category>Растровий редактор</category>
+		<title>Fifa 22</title>
+		<version>2021</version>
+		<category>Electronic Arts Sports</category>
 	</game>
 	<game group="Симулятори">
-		<title>Inkscape Project</title>
-		<version>0.92.4</version>
-		<category>Векторний редактор</category>
+		<title>Farming Simulator</title>
+		<version>2021</version>
+		<category>Giant Software</category>
 	</game>
 	<game group="Симулятори">
-		<title>Cinema 4D</title>
-		<version>R21</version>
-		<category>Універсальний тривимірний редактор</category>
+		<title>Euro Truck Simulator 2</title>
+		<version>2012</version>
+		<category>SCS Software</category>
 	</game>
 	<game group="КБ">
-		<title>Blender</title>
-		<version>2.82</version>
-		<category>Професійний редактор тривимірного моделювання</category>
+		<title>PlayerUnknown's Battlegrounds</title>
+		<version>2017</version>
+		<category>Krafton</category>
 	</game>
 	<game group="КБ">
-		<title>Autodesk 3ds Max</title>
-		<version>20202</version>
-		<category>Професійне програмне забезпечення для 3D-моделювання </category>
+		<title>Fortnite</title>
+		<version>2017</version>
+		<category>Epic Games </category>
 	</game>
 	<game group="КБ">
-		<title>Sony Vegas Pro</title>
-		<version>13.0</version>
-		<category>Професійна програма для багатодорожної запису, редакції</category>
+		<title>Call of Duty: Warzone</title>
+		<version>2020</version>
+		<category>Activision</category>
 	</game>
 	<game group="Шутери">
-		<title>Adobe After Effects</title>
-		<version>CC 14</version>
-		<category>Програмне забезпечення для редагування відео та динамічних зображень</category>
+		<title>Counter-Strike: Global Offensive</title>
+		<version>2012</version>
+		<category>Valve Corporation</category>
 	</game>
 	<game group="Шутери">
-		<title>Adobe Premier Pro</title>
-		<version>CS6</version>
-		<category>Професійна програма нелінійного відеомонтажу</category>
+		<title>Valorant</title>
+		<version>2020</version>
+		<category>Riot Games</category>
 	</game>	
 	<game group="Шутери">
-		<title>Adobe Premier Pro</title>
-		<version>CS6</version>
-		<category>Професійна програма нелінійного відеомонтажу</category>
+		<title>Tom Clancy’s Rainbow Six: Siege</title>
+		<version>2015</version>
+		<category>Ubisoft Monreal</category>
 	</game>
 </games>
