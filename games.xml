@@ -3,46 +3,46 @@
 	<game group="Симулятори">
 		<name>Fifa 22</name>
 		<year>2021</year>
-		<category>Electronic Arts Sports</category>
+		<developer>Electronic Arts Sports</developer>
 	</game>
 	<game group="Симулятори">
 		<name>Farming Simulator</name>
 		<year>2021</year>
-		<category>Giant Software</category>
+		<developer>Giant Software</developer>
 	</game>
 	<game group="Симулятори">
 		<name>Euro Truck Simulator 2</name>
 		<year>2012</year>
-		<category>SCS Software</category>
+		<developer>SCS Software</developer>
 	</game>
 	<game group="КБ">
 		<name>PlayerUnknown's Battlegrounds</name>
 		<year>2017</year>
-		<category>Krafton</category>
+		<developer>Krafton</developer>
 	</game>
 	<game group="КБ">
 		<name>Fortnite</name>
 		<year>2017</year>
-		<category>Epic Games </category>
+		<developer>Epic Games </developer>
 	</game>
 	<game group="КБ">
 		<name>Call of Duty: Warzone</name>
 		<year>2020</year>
-		<category>Activision</category>
+		<developer>Activision</developer>
 	</game>
 	<game group="Шутери">
 		<name>Counter-Strike: Global Offensive</name>
 		<year>2012</year>
-		<category>Valve Corporation</category>
+		<developer>Valve Corporation</developer>
 	</game>
 	<game group="Шутери">
 		<name>Valorant</name>
 		<year>2020</year>
-		<category>Riot Games</category>
+		<developer>Riot Games</developer>
 	</game>	
 	<game group="Шутери">
 		<name>Tom Clancy’s Rainbow Six: Siege</name>
 		<year>2015</year>
-		<category>Ubisoft Monreal</category>
+		<developer>Ubisoft Monreal</developer>
 	</game>
 </games>
