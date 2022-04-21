@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs>
+<games>
 	<game group="Графічні редактори">
 		<title>Adobe Photoshop</title>
 		<version>CS6</version>
@@ -40,4 +40,4 @@
 		<version>CS6</version>
 		<category>Професійна програма нелінійного відеомонтажу</category>
 	</game>
-</programs>
+</games>
