@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games>
 	<game group="Симулятори">
-		<title>Fifa 22</title>
+		<name>Fifa 22</name>
 		<version>2021</version>
 		<category>Electronic Arts Sports</category>
 	</game>
 	<game group="Симулятори">
-		<title>Farming Simulator</title>
+		<name>Farming Simulator</name>
 		<version>2021</version>
 		<category>Giant Software</category>
 	</game>
 	<game group="Симулятори">
-		<title>Euro Truck Simulator 2</title>
+		<name>Euro Truck Simulator 2</name>
 		<version>2012</version>
 		<category>SCS Software</category>
 	</game>
 	<game group="КБ">
-		<title>PlayerUnknown's Battlegrounds</title>
+		<name>PlayerUnknown's Battlegrounds</name>
 		<version>2017</version>
 		<category>Krafton</category>
 	</game>
 	<game group="КБ">
-		<title>Fortnite</title>
+		<name>Fortnite</name>
 		<version>2017</version>
 		<category>Epic Games </category>
 	</game>
 	<game group="КБ">
-		<title>Call of Duty: Warzone</title>
+		<name>Call of Duty: Warzone</name>
 		<version>2020</version>
 		<category>Activision</category>
 	</game>
 	<game group="Шутери">
-		<title>Counter-Strike: Global Offensive</title>
+		<name>Counter-Strike: Global Offensive</name>
 		<version>2012</version>
 		<category>Valve Corporation</category>
 	</game>
 	<game group="Шутери">
-		<title>Valorant</title>
+		<name>Valorant</name>
 		<version>2020</version>
 		<category>Riot Games</category>
 	</game>	
 	<game group="Шутери">
-		<title>Tom Clancy’s Rainbow Six: Siege</title>
+		<name>Tom Clancy’s Rainbow Six: Siege</name>
 		<version>2015</version>
 		<category>Ubisoft Monreal</category>
 	</game>
